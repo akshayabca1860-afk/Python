@@ -73,3 +73,5 @@ class Factorial:
 f1=Factorial()
 x=int(input("Enter a number:"))
 f1.find(x)
+
+#
