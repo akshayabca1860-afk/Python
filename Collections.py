@@ -29,3 +29,13 @@ for i in range(n):
         "mark":mark
 }
 print(Students)
+
+#Sort student names alphabetically.
+StudentsName=[]
+n=int(input("Enter the number of Students name:"))
+for i in range(n):
+    name=input("Enter your name:")
+    StudentsName.append(name)
+    
+StudentsName.sort()
+print(StudentsName)
