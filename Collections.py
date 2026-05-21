@@ -24,8 +24,8 @@ for i in range(n):
     name=input("Enter your name:")
     age=int(input("Enter your age:"))
     mark=float(input("Enter your mark:"))
-Students[name]= {
-    "age":age,
-    "mark":mark
+    Students[name]= {
+        "age":age,
+        "mark":mark
 }
 print(Students)
