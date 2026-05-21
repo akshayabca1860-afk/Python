@@ -17,3 +17,16 @@ for i in range(n):
     numbers.add(num)
 print("After removing the duplicates:")
 print(numbers)
+#Store employee ID and name using Dictionary
+Students={}
+n=int(input("Enter the number of Students:"))
+for i in range(n):
+    name=input("Enter your name:")
+    age=int(input("Enter your age:"))
+    mark=float(input("Enter your mark:"))
+Students["name"]=name
+Students["age"]=age
+Students["mark"]=mark
+Students.append(student)
+print("Students Details")
+print(Students)
